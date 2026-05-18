@@ -87,7 +87,7 @@ Se já existir um arquivo no destino, o script faz backup automático com extens
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/SEU_USUARIO/dotfiles.git ~/dotfiles
+git clone https://github.com/JonasFarias93/dotfiles.git ~/dotfiles
 
 # 2. Execute o instalador
 cd ~/dotfiles && bash install.sh
@@ -103,7 +103,7 @@ exec zsh
 vim ~/dotfiles/git/.gitconfig
 
 # Clone os templates de projeto (opcional, mas recomendado)
-git clone https://github.com/SEU_USUARIO/dev-templates.git ~/dev-templates
+git clone https://github.com/JonasFarias93/dev-templates.git ~/dev-templates
 ```
 
 ---
@@ -185,4 +185,4 @@ git push
 
 ## Relacionado
 
-**[dev-templates](https://github.com/SEU_USUARIO/dev-templates)** — Templates de projeto usados pelo `new-project`
+**[dev-templates](https://github.com/JonasFarias93/dev-templates)** — Templates de projeto usados pelo `new-project`
