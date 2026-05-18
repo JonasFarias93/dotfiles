@@ -1,0 +1,43 @@
+# =============================================================================
+# ~/.gitconfig — gerenciado pelos dotfiles
+# EDITE: name e email abaixo
+# =============================================================================
+
+[user]
+  name  = SEU NOME AQUI
+  email = seu@email.aqui
+
+[core]
+  editor   = vim
+  autocrlf = input
+  pager    = less -FRX
+
+[init]
+  defaultBranch = main
+
+[pull]
+  rebase = false
+
+[push]
+  default = current
+
+[fetch]
+  prune = true
+
+[alias]
+  s    = status -sb
+  l    = log --oneline --graph --decorate --all
+  ll   = log --graph --pretty=format:'%C(yellow)%h%Creset%C(cyan)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+  c    = commit
+  cm   = commit -m
+  ca   = commit --amend --no-edit
+  co   = checkout
+  cob  = checkout -b
+  undo = reset HEAD~1 --soft
+  pf   = push --force-with-lease
+
+[color]
+  ui = auto
+
+[safe]
+  directory = *
